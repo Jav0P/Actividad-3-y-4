@@ -58,8 +58,14 @@ def move():
         target.x -= 0.5
 
     if inside(ball):
-        speed.y -= 0.35
-        ball.move(speed)
+    speed.y -= 0.35
+    ball.move(speed)
+else:
+    # Reposiciona la bala en el cañón
+    ball.x = -199
+    ball.y = -199
+    speed.x = 0
+    speed.y = 0
 
     dupe = targets.copy()
     targets.clear()
