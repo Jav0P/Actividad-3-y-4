@@ -2,5 +2,4 @@
 # Pacman
 
 
-
-# Aquí iniciamos con el movimiento de los fantasmas para que sean más listos.
+#Aquí completamos el código faltante para hacer a los fantasmas más 'inteligentes'. Y borramos la parte de move() original.
