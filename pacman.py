@@ -130,6 +130,12 @@ def move():
     goto(pacman.x + 10, pacman.y + 10)
     dot(20, 'yellow')
 
+
+
+
+
+
+
     for point, course in ghosts:
         if valid(point + course):
             point.move(course)
@@ -143,6 +149,14 @@ def move():
             plan = choice(options)
             course.x = plan.x
             course.y = plan.y
+
+
+# for point, course in ghosts:
+	#if valid(point + course):
+		#point.move(course)
+                
+
+
 
         up()
         goto(point.x + 10, point.y + 10)
